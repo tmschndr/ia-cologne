@@ -1,39 +1,26 @@
+* body {margin:0;padding:0;}
+
 .screen {
-  position: absolute;
-  width: 350px;
-  height: 540px;
-  top: 50px;
-  left: 50px;
-  background: url(horse-dream-puzzle-13927.jpg);
-  border: 10px solid black;
-  border-radius: 10px;
+    padding: 0 5%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    text-align: justify;
+  background: url(http://apfeleimer.de/wp-content/uploads/2011/12/new-ipad-3.png) no-repeat;
   -webkit-transition-property: -webkit-transform, background-position;
   -webkit-transition-duration: 0.1s;
 }
 
 .icon {
-  width: 62px;
-  height: 62px;
-  margin-top: 20px;
-  margin-left: 20px;
-  background: yellow;
+  display: inline-block;
+  width: 20%;
+  padding-top: 20%;
+  margin-top: 5%;
+  background: white;
   border-radius: 10px;
-  float: left;
   opacity: 1;
-
-}
-
-.icon:nth-child(1),
-.icon:nth-child(2),
-.icon:nth-child(3),
-.icon:nth-child(4) {
-  margin-top: 20px;
-}
-
-.icon:nth-child(1),
-.icon:nth-child(5),
-.icon:nth-child(9),
-.icon:nth-child(13),
-.icon:nth-child(17) {
-  margin-left: 20px;
+    border: 1px solid #888;
+  box-shadow: 0px 0px 5px #ccc;
 }
